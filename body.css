@@ -26,6 +26,29 @@ body {
     font-style: italic;
     font-weight: 400;
 }
+/*Botão entrar ou de Login*/
+.btn-entrar {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    background: #1e90ff;
+    width: 110px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* offsetX offsetY blurRadius cor */
+    transition: box-shadow 0.3s; /* Transição suave */
+}
+
+.btn-entar:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Aumenta a sombra no hover */
+}
+
 
 .btn {
     margin-top: 15px;

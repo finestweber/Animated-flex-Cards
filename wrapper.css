@@ -6,6 +6,9 @@
 /* menu*/
 .head-wrapper{
     padding:  30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .menu-btn{
     width: 3rem;

@@ -1,5 +1,5 @@
 /*Flex card animado para celular*/
-@media (min-width:350px) {
+@media (min-width:320px) {
     .wrapper {
         width: 100%;
         display: flex;
