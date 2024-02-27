@@ -1,10 +1,50 @@
-@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-body{
-    background-image: linear-gradient(#232732,#393d49,#13161c);
+
+body {
+    background-image: linear-gradient(#232732, #393d49, #13161c);
+    color: white;
+}
+
+.titulo {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.titulo h2 {
+    font-size: 1.5em;
+}
+
+.titulo p {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.btn {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    background: #1e90ff;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* offsetX offsetY blurRadius cor */
+    transition: box-shadow 0.3s; /* Transição suave */
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Aumenta a sombra no hover */
 }
