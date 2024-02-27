@@ -1,21 +1,11 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-body {
-    background-color: #eeeeea;
-}
+/*Flex card animado para celular*/
 @media (min-width:350px) {
     .wrapper {
         width: 100%;
-        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 50px;
     }    
     .container {
         height: 250px;
@@ -106,18 +96,15 @@ body {
         display: none;
     }
     
-    
 }
-
+/*flex card animado para tablet*/
 @media (min-width:752px) {
-    
-    
     .wrapper {
         width: 100%;
-        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 50px;
     }    
     .container {
         height: 400px;
