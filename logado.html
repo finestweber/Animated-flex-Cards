@@ -1,0 +1,18 @@
+<h1>Logado com sucesso</h1>
+
+<button onclick="sair()">Sair</button>
+<script>
+
+
+    //bloqueia o acesso se não tiver o token armazenado no cash
+    if(localStorage.getItem('token') == null){
+            alert('Você precisa estar Logado para acessar a pagina')
+            window.location.href ='http://127.0.0.1:5500/css_sliding_cards/login.html' /* manda
+            para a tela de Login*/
+        }
+    function sair(){
+        localStorage.removeItem('token')//remove o token
+        
+        window.location.href ='http://127.0.0.1:5500/css_sliding_cards/index.html'// volta para a tela home
+    }
+</script>

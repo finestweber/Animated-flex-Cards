@@ -17,7 +17,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Se o usuário for encontrado, exibir um alerta de "Login bem-sucedido!" e redirecionar para outra página
         if (usuarioAutenticado) {
             alert('Login bem-sucedido!');
-            window.location.href = "http://127.0.0.1:5500/css_sliding_cards/index.html";
+            window.location.href = "http://127.0.0.1:5500/css_sliding_cards/logado.html";
+            //token
+            let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2)
+            console.log(token)
+            localStorage.setItem('token', token)
+            
         } else {
             // Se o usuário não for encontrado, exibir um alerta de "Email ou senha inválidos. Tente novamente."
             alert('Email ou senha inválidos. Tente novamente.');
@@ -29,6 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 // Arquivo sccript-login.js
 
-// Função para entrar
 
 
