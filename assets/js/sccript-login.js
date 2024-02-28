@@ -56,7 +56,16 @@ function cadastrar() {
 
     // Exibe uma mensagem de sucesso
     alert("Usuário cadastrado com sucesso!");
+    
+        window.location.href='http://127.0.0.1:5500/css_sliding_cards/login.html'
+    
+    
 }
 
 // Adiciona o evento de clique ao botão de cadastro
 document.getElementById("login_button").addEventListener("click", cadastrar);
+
+// Arquivo sccript-login.js
+
+
+
